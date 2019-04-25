@@ -8,7 +8,7 @@ import Src.DataPreparation
 %matplotlib inline
 
 
-processed_review_vector, X_train, X_test, y_train, y_test, csv_data, review_texts, ratings, vectorizer = executePreparation(1000, 0.3)
+processed_review_vector, X_train, X_test, y_train, y_test, csv_data, review_texts, ratings, vectorizer = executePreparation(20000, 0.3)
 
 print("Training the model with Random Forest")
 
